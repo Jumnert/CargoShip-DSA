@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Year2 s2\\Learn DSA\\Cargo-Shipping-DSA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|d:\\year2 s2\\learn dsa\\cargo-shipping-dsa\\cargo-shipping-dsa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|solutionrelative:cargo-shipping-dsa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Year2 s2\\Learn DSA\\Cargo-Shipping-DSA\\Cargo-Shipping-DSA\\Program.cs",
+              "RelativeDocumentMoniker": "Cargo-Shipping-DSA\\Program.cs",
+              "ToolTip": "D:\\Year2 s2\\Learn DSA\\Cargo-Shipping-DSA\\Cargo-Shipping-DSA\\Program.cs",
+              "RelativeToolTip": "Cargo-Shipping-DSA\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwCcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T10:49:50.389Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
