@@ -1,10 +1,10 @@
 ﻿using System;
-
+using CargoShippingDSA.Menus; // <-- This lets you use QueueMenu, StackMenu, etc.
 namespace CargoShippingDSA
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             bool exit = false;
 
@@ -13,7 +13,7 @@ namespace CargoShippingDSA
                 Console.Clear();
 
                 Console.WriteLine(@"
-                                                                                                                
+                                                                                                                 
    _____                         _____ _     _             _               _____   _____         
   / ____|                       / ____| |   (_)           (_)             |  __ \ / ____|  /\    
  | |     __ _ _ __ __ _  ___   | (___ | |__  _ _ __  _ __  _ _ __   __ _  | |  | | (___   /  \   
@@ -38,28 +38,23 @@ namespace CargoShippingDSA
                 switch (input)
                 {
                     case "1":
-                        Console.WriteLine("Queue Module Selected...");
-                        Console.ReadKey();
+                        //QueueMenu.Show();
                         break;
 
                     case "2":
-                        Console.WriteLine("Stack Module Selected...");
-                        Console.ReadKey();
+                        //StackMenu.Show();
                         break;
 
                     case "3":
-                        Console.WriteLine("Linked List Module Selected...");
-                        Console.ReadKey();
+                        //LinkedListMenu.Show();
                         break;
 
                     case "4":
-                        Console.WriteLine("Sort Module Selected...");
-                        Console.ReadKey();
+                        //SortMenu.Show();
                         break;
 
                     case "5":
-                        Console.WriteLine("Search Module Selected...");
-                        Console.ReadKey();
+                        SearchMenu.Show();
                         break;
 
                     case "6":
@@ -67,7 +62,7 @@ namespace CargoShippingDSA
                         break;
 
                     default:
-                        Console.WriteLine("Invalid choice. Try again.");
+                        Console.WriteLine("Invalid option. Press any key to continue...");
                         Console.ReadKey();
                         break;
                 }
