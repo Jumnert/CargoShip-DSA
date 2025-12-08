@@ -21,7 +21,7 @@ namespace CargoShippingDSA
  | |___| (_| | | | (_| | (_) |  ____) | | | | | |_) | |_) | | | | | (_| | | |__| |____) / ____ \ 
   \_____\__,_|_|  \__, |\___/  |_____/|_| |_|_| .__/| .__/|_|_| |_|\__, | |_____/|_____/_/    \_\
                    __/ |                      | |   | |             __/ |                        
-                  |___/                       |_|   |_|            |___/                                                                                                     
+                  |___/                       |_|   |_|            |___/                                                                                                        
                 ");
                 Console.WriteLine("=======================================");
                 Console.WriteLine("1. Queue");
@@ -46,7 +46,7 @@ namespace CargoShippingDSA
                         break;
 
                     case "3":
-                        //LinkedListMenu.Show();
+                        LinkedListMenu.Show();
                         break;
 
                     case "4":

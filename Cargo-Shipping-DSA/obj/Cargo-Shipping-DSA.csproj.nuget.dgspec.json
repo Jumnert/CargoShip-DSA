@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Year2 s2\\Learn DSA\\Cargo-Shipping-DSA\\Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj": {}
+    "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj": {}
   },
   "projects": {
-    "D:\\Year2 s2\\Learn DSA\\Cargo-Shipping-DSA\\Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj": {
+    "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Year2 s2\\Learn DSA\\Cargo-Shipping-DSA\\Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj",
+        "projectUniqueName": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj",
         "projectName": "Cargo-Shipping-DSA",
-        "projectPath": "D:\\Year2 s2\\Learn DSA\\Cargo-Shipping-DSA\\Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj",
+        "projectPath": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj",
         "packagesPath": "C:\\Users\\Jumnert\\.nuget\\packages\\",
-        "outputPath": "D:\\Year2 s2\\Learn DSA\\Cargo-Shipping-DSA\\Cargo-Shipping-DSA\\obj\\",
+        "outputPath": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -60,6 +60,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

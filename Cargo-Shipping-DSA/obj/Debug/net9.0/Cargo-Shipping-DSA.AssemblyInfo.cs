@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cargo-Shipping-DSA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5b852b5a86c6ca6b17c6fcae6a8398405e8ae89")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+280fe5711896887023852c694db43c81b5010496")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cargo-Shipping-DSA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cargo-Shipping-DSA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

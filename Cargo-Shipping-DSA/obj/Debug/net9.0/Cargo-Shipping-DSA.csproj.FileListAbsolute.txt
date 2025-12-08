@@ -13,3 +13,18 @@ D:\Year2 s2\Learn DSA\Cargo-Shipping-DSA\Cargo-Shipping-DSA\obj\Debug\net9.0\ref
 D:\Year2 s2\Learn DSA\Cargo-Shipping-DSA\Cargo-Shipping-DSA\obj\Debug\net9.0\Cargo-Shipping-DSA.pdb
 D:\Year2 s2\Learn DSA\Cargo-Shipping-DSA\Cargo-Shipping-DSA\obj\Debug\net9.0\Cargo-Shipping-DSA.genruntimeconfig.cache
 D:\Year2 s2\Learn DSA\Cargo-Shipping-DSA\Cargo-Shipping-DSA\obj\Debug\net9.0\ref\Cargo-Shipping-DSA.dll
+C:\Users\Jumnert\Desktop\CargoShip-DSA\Cargo-Shipping-DSA\bin\Debug\net9.0\Cargo-Shipping-DSA.exe
+C:\Users\Jumnert\Desktop\CargoShip-DSA\Cargo-Shipping-DSA\bin\Debug\net9.0\Cargo-Shipping-DSA.deps.json
+C:\Users\Jumnert\Desktop\CargoShip-DSA\Cargo-Shipping-DSA\bin\Debug\net9.0\Cargo-Shipping-DSA.runtimeconfig.json
+C:\Users\Jumnert\Desktop\CargoShip-DSA\Cargo-Shipping-DSA\bin\Debug\net9.0\Cargo-Shipping-DSA.dll
+C:\Users\Jumnert\Desktop\CargoShip-DSA\Cargo-Shipping-DSA\bin\Debug\net9.0\Cargo-Shipping-DSA.pdb
+C:\Users\Jumnert\Desktop\CargoShip-DSA\Cargo-Shipping-DSA\obj\Debug\net9.0\Cargo-Shipping-DSA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jumnert\Desktop\CargoShip-DSA\Cargo-Shipping-DSA\obj\Debug\net9.0\Cargo-Shipping-DSA.AssemblyInfoInputs.cache
+C:\Users\Jumnert\Desktop\CargoShip-DSA\Cargo-Shipping-DSA\obj\Debug\net9.0\Cargo-Shipping-DSA.AssemblyInfo.cs
+C:\Users\Jumnert\Desktop\CargoShip-DSA\Cargo-Shipping-DSA\obj\Debug\net9.0\Cargo-Shipping-DSA.csproj.CoreCompileInputs.cache
+C:\Users\Jumnert\Desktop\CargoShip-DSA\Cargo-Shipping-DSA\obj\Debug\net9.0\Cargo-Shipping-DSA.sourcelink.json
+C:\Users\Jumnert\Desktop\CargoShip-DSA\Cargo-Shipping-DSA\obj\Debug\net9.0\Cargo-Shipping-DSA.dll
+C:\Users\Jumnert\Desktop\CargoShip-DSA\Cargo-Shipping-DSA\obj\Debug\net9.0\refint\Cargo-Shipping-DSA.dll
+C:\Users\Jumnert\Desktop\CargoShip-DSA\Cargo-Shipping-DSA\obj\Debug\net9.0\Cargo-Shipping-DSA.pdb
+C:\Users\Jumnert\Desktop\CargoShip-DSA\Cargo-Shipping-DSA\obj\Debug\net9.0\Cargo-Shipping-DSA.genruntimeconfig.cache
+C:\Users\Jumnert\Desktop\CargoShip-DSA\Cargo-Shipping-DSA\obj\Debug\net9.0\ref\Cargo-Shipping-DSA.dll
