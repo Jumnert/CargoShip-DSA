@@ -14,6 +14,13 @@ namespace CargoShippingDSA.Menus
             while (!exit)
             {
                 Console.Clear();
+                Console.WriteLine(@"                                                                                                                                                                                
+    ___                        
+  / _ \ _   _  ___ _   _  ___ 
+ | | | | | | |/ _ \ | | |/ _ \
+ | |_| | |_| |  __/ |_| |  __/
+  \__\_\\__,_|\___|\__,_|\___|                                                                                                                                                                                                                    
+                ");
                 Console.WriteLine("========== QUEUE MENU ==========");
                 Console.WriteLine("1. Enqueue cargo");
                 Console.WriteLine("2. Dequeue cargo");

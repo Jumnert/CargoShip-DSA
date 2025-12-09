@@ -14,6 +14,13 @@ namespace CargoShippingDSA.Menus
             while (!exit)
             {
                 Console.Clear();
+                Console.WriteLine(@"                                                                                                                                                              
+  ____  _             _    
+ / ___|| |_ __ _  ___| | __
+ \___ \| __/ _` |/ __| |/ /
+  ___) | || (_| | (__|   < 
+ |____/ \__\__,_|\___|_|\_\                                                                                                                                                                                                                                                        
+                ");
                 Console.WriteLine("========== STACK MENU ==========");
                 Console.WriteLine("1. Push cargo");
                 Console.WriteLine("2. Pop cargo");

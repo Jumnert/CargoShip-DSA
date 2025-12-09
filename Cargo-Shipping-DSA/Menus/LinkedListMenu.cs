@@ -13,6 +13,13 @@ namespace CargoShippingDSA.Menus
             while (!exit)
             {
                 Console.Clear();
+                Console.WriteLine(@"                                                                                                                                                                               
+  _     _       _            _   _     _     _       
+ | |   (_)_ __ | | _____  __| | | |   (_)___| |_ ___ 
+ | |   | | '_ \| |/ / _ \/ _` | | |   | / __| __/ __|
+ | |___| | | | |   <  __/ (_| | | |___| \__ \ |_\__ \
+ |_____|_|_| |_|_|\_\___|\__,_| |_____|_|___/\__|___/                                                                                                                                                                                          
+                ");
                 Console.WriteLine("========== LINKED LIST MENU ==========");
                 Console.WriteLine("1. Add Cargo at Beginning");
                 Console.WriteLine("2. Add Cargo at End");
