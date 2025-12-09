@@ -38,11 +38,11 @@ namespace CargoShippingDSA
                 switch (input)
                 {
                     case "1":
-                        //QueueMenu.Show();
+                        QueueMenu.Show();
                         break;
 
                     case "2":
-                        //StackMenu.Show();
+                        StackMenu.Show();
                         break;
 
                     case "3":
