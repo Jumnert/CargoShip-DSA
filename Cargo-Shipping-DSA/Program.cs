@@ -1,9 +1,11 @@
-﻿using System;
-using CargoShippingDSA.Menus; // <-- This lets you use QueueMenu, StackMenu, etc.
+﻿using CargoShippingDSA.Menus; // <-- This lets you use QueueMenu, StackMenu, etc.
+using CargoShippingDSA.Modules;
+using System;
 namespace CargoShippingDSA
 {
     class Program
     {
+        private static List<CargoItem> sharedCargos = new List<CargoItem>();
         public static void Main(string[] args)
         {
             bool exit = false;
@@ -50,7 +52,7 @@ namespace CargoShippingDSA
                         break;
 
                     case "4":
-                        //SortMenu.Show();
+                        SortMenu.Show();
                         break;
 
                     case "5":

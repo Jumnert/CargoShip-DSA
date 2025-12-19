@@ -4,18 +4,16 @@ namespace CargoShippingDSA.Modules
 {
     public static class SearchModule
     {
-        // Linear search
         public static int LinearSearch(int[] cargoIds, int key)
         {
             for (int i = 0; i < cargoIds.Length; i++)
             {
                 if (cargoIds[i] == key)
-                    return i; // found
+                    return i;
             }
-            return -1; // not found
+            return -1; 
         }
 
-        // Binary search (array must be sorted)
         public static int BinarySearch(int[] cargoIds, int key)
         {
             int left = 0;
@@ -32,7 +30,7 @@ namespace CargoShippingDSA.Modules
                     right = mid - 1;
             }
 
-            return -1; // not found
+            return -1; 
         }
     }
 }

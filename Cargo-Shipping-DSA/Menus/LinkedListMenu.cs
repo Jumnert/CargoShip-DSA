@@ -76,11 +76,10 @@ namespace CargoShippingDSA.Menus
                         break;
                 }
 
-                // Small delay so results don't disappear instantly
                 if (!exit)
                 {
                     Console.Write("\nPress any key...");
-                    Console.ReadKey(true);   // user presses ANY key instantly
+                    Console.ReadKey(true);  
                 }
             }
         }

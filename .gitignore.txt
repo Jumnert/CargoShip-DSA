@@ -1,0 +1,52 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+
+# Rider
+.idea/
+
+# Resharper
+*.ReSharper.*
+_ReSharper*/
+
+# DotCover
+*.dotCover
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# VS Code
+.vscode/
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node modules (if any)
+node_modules/
+
+# Logs
+*.log
+
+# Packages
+*.nupkg
+*.snupkg
+
+# Others
+*.pidb
+*.sdf
+*.dbmdl
+*.bak
+*.backup
+*.tmp

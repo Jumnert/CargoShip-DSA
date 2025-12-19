@@ -8,9 +8,11 @@ namespace CargoShippingDSA.Menus
         private static StackModule stack = new StackModule();
 
         public static void Show()
-        {
+        {   //Declare
             bool exit = false;
-
+            //Input
+            //Process
+            //Output
             while (!exit)
             {
                 Console.Clear();

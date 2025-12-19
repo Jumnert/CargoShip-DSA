@@ -6,7 +6,6 @@ namespace CargoShippingDSA.Menus
     public class QueueMenu
     {
         private static QueueModule queue = new QueueModule();
-
         public static void Show()
         {
             bool exit = false;

@@ -1,6 +1,5 @@
 ﻿using System;
 using CargoShippingDSA.Modules;
-
 namespace CargoShippingDSA.Menus
 {
     public static class SearchMenu
