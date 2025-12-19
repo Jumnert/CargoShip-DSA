@@ -1,5 +1,6 @@
 ﻿using System;
-using CargoShippingDSA.Menus; // <-- This lets you use QueueMenu, StackMenu, etc.
+using CargoShippingDSA.Menus;
+using CargoShippingDSA.Modules; // <-- This lets you use QueueMenu, StackMenu, etc.
 namespace CargoShippingDSA
 {
     class Program
@@ -50,7 +51,7 @@ namespace CargoShippingDSA
                         break;
 
                     case "4":
-                        //SortMenu.Show();
+                       SortMenu.Show();
                         break;
 
                     case "5":

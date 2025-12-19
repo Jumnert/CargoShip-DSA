@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S37VtynLGoI=",
+  "dgSpecHash": "LXjKZ3m2gKM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Jumnert\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.11\\microsoft.windowsdesktop.app.ref.9.0.11.nupkg.sha512",
-    "C:\\Users\\Jumnert\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
-    "C:\\Users\\Jumnert\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.11\\microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512",
-    "C:\\Users\\Jumnert\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.11\\microsoft.netcore.app.host.win-x64.9.0.11.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\Data_Structure_Project\\CargoShip-DSA\\Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
