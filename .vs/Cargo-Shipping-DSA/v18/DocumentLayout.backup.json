@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|solutionrelative:cargo-shipping-dsa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|c:\\users\\jumnert\\desktop\\cargoship-dsa\\cargo-shipping-dsa\\modules\\sortmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|solutionrelative:cargo-shipping-dsa\\modules\\sortmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|c:\\users\\jumnert\\desktop\\cargoship-dsa\\cargo-shipping-dsa\\menus\\stackmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|solutionrelative:cargo-shipping-dsa\\menus\\stackmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|c:\\users\\jumnert\\desktop\\cargoship-dsa\\cargo-shipping-dsa\\menus\\sortmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,36 +19,36 @@
       "RelativeMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|solutionrelative:cargo-shipping-dsa\\menus\\searchmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|c:\\users\\jumnert\\desktop\\cargoship-dsa\\cargo-shipping-dsa\\menus\\queuemenu.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|solutionrelative:cargo-shipping-dsa\\menus\\queuemenu.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|c:\\users\\jumnert\\desktop\\cargoship-dsa\\cargo-shipping-dsa\\modules\\linkedlistmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|solutionrelative:cargo-shipping-dsa\\modules\\linkedlistmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|c:\\users\\jumnert\\desktop\\cargoship-dsa\\cargo-shipping-dsa\\menus\\stackmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|solutionrelative:cargo-shipping-dsa\\menus\\stackmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|c:\\users\\jumnert\\desktop\\cargoship-dsa\\cargo-shipping-dsa\\menus\\queuemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|solutionrelative:cargo-shipping-dsa\\menus\\queuemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|c:\\users\\jumnert\\desktop\\cargoship-dsa\\cargo-shipping-dsa\\menus\\linkedlistmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|solutionrelative:cargo-shipping-dsa\\menus\\linkedlistmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|c:\\users\\jumnert\\desktop\\cargoship-dsa\\cargo-shipping-dsa\\menus\\queuemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|solutionrelative:cargo-shipping-dsa\\menus\\queuemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|c:\\users\\jumnert\\desktop\\cargoship-dsa\\cargo-shipping-dsa\\modules\\searchmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|solutionrelative:cargo-shipping-dsa\\modules\\searchmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|c:\\users\\jumnert\\desktop\\cargoship-dsa\\cargo-shipping-dsa\\menus\\queuemenu.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|solutionrelative:cargo-shipping-dsa\\menus\\queuemenu.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|c:\\users\\jumnert\\desktop\\cargoship-dsa\\cargo-shipping-dsa\\modules\\stackmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|solutionrelative:cargo-shipping-dsa\\modules\\stackmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|c:\\users\\jumnert\\desktop\\cargoship-dsa\\cargo-shipping-dsa\\modules\\sortmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|solutionrelative:cargo-shipping-dsa\\modules\\sortmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|c:\\users\\jumnert\\desktop\\cargoship-dsa\\cargo-shipping-dsa\\modules\\queuemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|solutionrelative:cargo-shipping-dsa\\modules\\queuemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|c:\\users\\jumnert\\desktop\\cargoship-dsa\\cargo-shipping-dsa\\modules\\searchmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|solutionrelative:cargo-shipping-dsa\\modules\\searchmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|c:\\users\\jumnert\\desktop\\cargoship-dsa\\cargo-shipping-dsa\\modules\\linkedlistmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5EF2EE-A322-42C2-83E7-4131292522B2}|Cargo-Shipping-DSA\\Cargo-Shipping-DSA.csproj|solutionrelative:cargo-shipping-dsa\\modules\\linkedlistmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Year2 s2\\Learn DSA\\Cargo-Shipping-DSA\\QueueModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -88,7 +88,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -96,15 +96,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StackMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Menus\\StackMenu.cs",
-              "RelativeDocumentMoniker": "Cargo-Shipping-DSA\\Menus\\StackMenu.cs",
-              "ToolTip": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Menus\\StackMenu.cs",
-              "RelativeToolTip": "Cargo-Shipping-DSA\\Menus\\StackMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "SortModule.cs",
+              "DocumentMoniker": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Modules\\SortModule.cs",
+              "RelativeDocumentMoniker": "Cargo-Shipping-DSA\\Modules\\SortModule.cs",
+              "ToolTip": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Modules\\SortModule.cs",
+              "RelativeToolTip": "Cargo-Shipping-DSA\\Modules\\SortModule.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T09:26:20.891Z"
+              "WhenOpened": "2025-12-03T09:29:54.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LinkedListMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Menus\\LinkedListMenu.cs",
+              "RelativeDocumentMoniker": "Cargo-Shipping-DSA\\Menus\\LinkedListMenu.cs",
+              "ToolTip": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Menus\\LinkedListMenu.cs",
+              "RelativeToolTip": "Cargo-Shipping-DSA\\Menus\\LinkedListMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T09:24:41.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QueueMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Menus\\QueueMenu.cs",
+              "RelativeDocumentMoniker": "Cargo-Shipping-DSA\\Menus\\QueueMenu.cs",
+              "ToolTip": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Menus\\QueueMenu.cs",
+              "RelativeToolTip": "Cargo-Shipping-DSA\\Menus\\QueueMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T09:26:19.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Program.cs",
+              "RelativeDocumentMoniker": "Cargo-Shipping-DSA\\Program.cs",
+              "ToolTip": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Program.cs",
+              "RelativeToolTip": "Cargo-Shipping-DSA\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAACYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T10:49:50.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QueueModule.cs",
+              "DocumentMoniker": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Modules\\QueueModule.cs",
+              "RelativeDocumentMoniker": "Cargo-Shipping-DSA\\Modules\\QueueModule.cs",
+              "ToolTip": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Modules\\QueueModule.cs",
+              "RelativeToolTip": "Cargo-Shipping-DSA\\Modules\\QueueModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T09:29:45.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StackModule.cs",
+              "DocumentMoniker": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Modules\\StackModule.cs",
+              "RelativeDocumentMoniker": "Cargo-Shipping-DSA\\Modules\\StackModule.cs",
+              "ToolTip": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Modules\\StackModule.cs",
+              "RelativeToolTip": "Cargo-Shipping-DSA\\Modules\\StackModule.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T09:30:03.706Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -114,9 +180,22 @@
               "RelativeDocumentMoniker": "Cargo-Shipping-DSA\\Menus\\SearchMenu.cs",
               "ToolTip": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Menus\\SearchMenu.cs",
               "RelativeToolTip": "Cargo-Shipping-DSA\\Menus\\SearchMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwEAAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T09:26:33.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StackMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Menus\\StackMenu.cs",
+              "RelativeDocumentMoniker": "Cargo-Shipping-DSA\\Menus\\StackMenu.cs",
+              "ToolTip": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Menus\\StackMenu.cs",
+              "RelativeToolTip": "Cargo-Shipping-DSA\\Menus\\StackMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T09:26:20.891Z",
               "EditorCaption": ""
             },
             {
@@ -127,63 +206,14 @@
               "RelativeDocumentMoniker": "Cargo-Shipping-DSA\\Menus\\SortMenu.cs",
               "ToolTip": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Menus\\SortMenu.cs",
               "RelativeToolTip": "Cargo-Shipping-DSA\\Menus\\SortMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T09:26:19.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SearchModule.cs",
-              "DocumentMoniker": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Modules\\SearchModule.cs",
-              "RelativeDocumentMoniker": "Cargo-Shipping-DSA\\Modules\\SearchModule.cs",
-              "ToolTip": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Modules\\SearchModule.cs",
-              "RelativeToolTip": "Cargo-Shipping-DSA\\Modules\\SearchModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T09:27:56.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SortModule.cs",
-              "DocumentMoniker": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Modules\\SortModule.cs",
-              "RelativeDocumentMoniker": "Cargo-Shipping-DSA\\Modules\\SortModule.cs",
-              "ToolTip": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Modules\\SortModule.cs",
-              "RelativeToolTip": "Cargo-Shipping-DSA\\Modules\\SortModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T09:29:54.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LinkedListMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Menus\\LinkedListMenu.cs",
-              "RelativeDocumentMoniker": "Cargo-Shipping-DSA\\Menus\\LinkedListMenu.cs",
-              "ToolTip": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Menus\\LinkedListMenu.cs",
-              "RelativeToolTip": "Cargo-Shipping-DSA\\Menus\\LinkedListMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T09:24:41.467Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "QueueMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Menus\\QueueMenu.cs",
-              "RelativeDocumentMoniker": "Cargo-Shipping-DSA\\Menus\\QueueMenu.cs",
-              "ToolTip": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Menus\\QueueMenu.cs",
-              "RelativeToolTip": "Cargo-Shipping-DSA\\Menus\\QueueMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T09:26:19.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "QueueMenu.txt",
               "DocumentMoniker": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Menus\\QueueMenu.txt",
               "RelativeDocumentMoniker": "Cargo-Shipping-DSA\\Menus\\QueueMenu.txt",
@@ -196,52 +226,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
+              "Title": "SearchModule.cs",
+              "DocumentMoniker": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Modules\\SearchModule.cs",
+              "RelativeDocumentMoniker": "Cargo-Shipping-DSA\\Modules\\SearchModule.cs",
+              "ToolTip": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Modules\\SearchModule.cs",
+              "RelativeToolTip": "Cargo-Shipping-DSA\\Modules\\SearchModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T09:27:56.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "LinkedListModule.cs",
               "DocumentMoniker": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Modules\\LinkedListModule.cs",
               "RelativeDocumentMoniker": "Cargo-Shipping-DSA\\Modules\\LinkedListModule.cs",
               "ToolTip": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Modules\\LinkedListModule.cs",
               "RelativeToolTip": "Cargo-Shipping-DSA\\Modules\\LinkedListModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwHoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T09:28:19.881Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Program.cs",
-              "RelativeDocumentMoniker": "Cargo-Shipping-DSA\\Program.cs",
-              "ToolTip": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Program.cs",
-              "RelativeToolTip": "Cargo-Shipping-DSA\\Program.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwAgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T10:49:50.389Z",
+              "WhenOpened": "2025-12-03T09:28:19.881Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StackModule.cs",
-              "DocumentMoniker": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Modules\\StackModule.cs",
-              "RelativeDocumentMoniker": "Cargo-Shipping-DSA\\Modules\\StackModule.cs",
-              "ToolTip": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Modules\\StackModule.cs",
-              "RelativeToolTip": "Cargo-Shipping-DSA\\Modules\\StackModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T09:30:03.706Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "QueueModule.cs",
-              "DocumentMoniker": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Modules\\QueueModule.cs",
-              "RelativeDocumentMoniker": "Cargo-Shipping-DSA\\Modules\\QueueModule.cs",
-              "ToolTip": "C:\\Users\\Jumnert\\Desktop\\CargoShip-DSA\\Cargo-Shipping-DSA\\Modules\\QueueModule.cs",
-              "RelativeToolTip": "Cargo-Shipping-DSA\\Modules\\QueueModule.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCsAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T09:29:45.108Z"
             },
             {
               "$type": "Document",

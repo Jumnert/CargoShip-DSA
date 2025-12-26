@@ -1,11 +1,14 @@
-﻿using CargoShippingDSA.Menus; // <-- This lets you use QueueMenu, StackMenu, etc.
+﻿using CargoShippingDSA.Menus;
 using CargoShippingDSA.Modules;
 using System;
+using System.Collections.Generic;
+
 namespace CargoShippingDSA
 {
     class Program
     {
         private static List<CargoItem> sharedCargos = new List<CargoItem>();
+
         public static void Main(string[] args)
         {
             bool exit = false;
@@ -16,21 +19,24 @@ namespace CargoShippingDSA
 
                 Console.WriteLine(@"
                                                                                                                  
-   _____                         _____ _     _             _               _____   _____         
-  / ____|                       / ____| |   (_)           (_)             |  __ \ / ____|  /\    
- | |     __ _ _ __ __ _  ___   | (___ | |__  _ _ __  _ __  _ _ __   __ _  | |  | | (___   /  \   
- | |    / _` | '__/ _` |/ _ \   \___ \| '_ \| | '_ \| '_ \| | '_ \ / _` | | |  | |\___ \ / /\ \  
- | |___| (_| | | | (_| | (_) |  ____) | | | | | |_) | |_) | | | | | (_| | | |__| |____) / ____ \ 
-  \_____\__,_|_|  \__, |\___/  |_____/|_| |_|_| .__/| .__/|_|_| |_|\__, | |_____/|_____/_/    \_\
-                   __/ |                      | |   | |             __/ |                        
-                  |___/                       |_|   |_|            |___/                                                                                                        
+ .d8888b.                                     .d8888b.  888      d8b                   d8b                        8888888b.   .d8888b.        d8888 
+d88P  Y88b                                   d88P  Y88b 888      Y8P                   Y8P                        888  ""Y88b d88P  Y88b      d88888 
+888    888                                   Y88b.      888                                                       888    888 Y88b.          d88P888 
+888         8888b.  888d888 .d88b.   .d88b.   ""Y888b.   88888b.  888 88888b.  88888b.  888 88888b.   .d88b.       888    888  ""Y888b.      d88P 888 
+888            ""88b 888P""  d88P""88b d88""""88b     ""Y88b. 888 ""88b 888 888 ""88b 888 ""88b 888 888 ""88b d88P""88b      888    888     ""Y88b.   d88P  888 
+888    888 .d888888 888    888  888 888  888       ""888 888  888 888 888  888 888  888 888 888  888 888  888      888    888       ""888  d88P   888 
+Y88b  d88P 888  888 888    Y88b 888 Y88..88P Y88b  d88P 888  888 888 888 d88P 888 d88P 888 888  888 Y88b 888      888  .d88P Y88b  d88P d8888888888 
+ ""Y8888P""  ""Y888888 888     ""Y88888  ""Y88P""   ""Y8888P""  888  888 888 88888P""  88888P""  888 888  888  ""Y88888      8888888P""   ""Y8888P"" d88P     888 
+                                888                                  888      888                        888                                        
+                           Y8b d88P                                  888      888                   Y8b d88P                                        
+                            ""Y88P""                                   888      888                    ""Y88P""                                                                                                                                           
                 ");
                 Console.WriteLine("=======================================");
-                Console.WriteLine("1. Queue");
-                Console.WriteLine("2. Stacks");
-                Console.WriteLine("3. Linked List");
-                Console.WriteLine("4. Sort");
-                Console.WriteLine("5. Search");
+                Console.WriteLine("1. Queue (Cargo Management)");
+                Console.WriteLine("2. Stack (Container Management)");
+                Console.WriteLine("3. Linked List (Captain Task List)");
+                Console.WriteLine("4. Sorting Cargo (by Weight)");
+                Console.WriteLine("5. Searching Cargo (Linear Search)");
                 Console.WriteLine("6. Exit");
                 Console.WriteLine("=======================================");
                 Console.Write("Enter your choice: ");

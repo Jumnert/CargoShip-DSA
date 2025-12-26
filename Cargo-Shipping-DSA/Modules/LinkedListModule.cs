@@ -1,14 +1,15 @@
 ﻿using System;
+
 namespace CargoShippingDSA.Modules
 {
     public class LinkedListNode
     {
-        public string CargoName { get; set; }
+        public string Task { get; set; }
         public LinkedListNode? Next { get; set; }
 
-        public LinkedListNode(string cargo)
+        public LinkedListNode(string task)
         {
-            CargoName = cargo;
+            Task = task;
             Next = null;
         }
     }
@@ -17,18 +18,18 @@ namespace CargoShippingDSA.Modules
     {
         private LinkedListNode? head;
 
-        // Add cargo at the beginning
-        public void AddFirst(string cargo)
+        // Add task at the beginning
+        public void AddFirst(string task)
         {
-            LinkedListNode newNode = new LinkedListNode(cargo);
+            LinkedListNode newNode = new LinkedListNode(task);
             newNode.Next = head;
             head = newNode;
         }
 
-        // Add cargo at the end
-        public void AddLast(string cargo)
+        // Add task at the end
+        public void AddLast(string task)
         {
-            LinkedListNode newNode = new LinkedListNode(cargo);
+            LinkedListNode newNode = new LinkedListNode(task);
 
             if (head == null)
             {
@@ -43,12 +44,12 @@ namespace CargoShippingDSA.Modules
             current.Next = newNode;
         }
 
-        // Remove cargo by name
-        public bool Remove(string cargo)
+        // Remove task
+        public bool Remove(string task)
         {
             if (head == null) return false;
 
-            if (head.CargoName == cargo)
+            if (head.Task == task)
             {
                 head = head.Next;
                 return true;
@@ -57,7 +58,7 @@ namespace CargoShippingDSA.Modules
             LinkedListNode current = head;
             LinkedListNode? prev = null;
 
-            while (current != null && current.CargoName != cargo)
+            while (current != null && current.Task != task)
             {
                 prev = current;
                 current = current.Next;
@@ -69,14 +70,14 @@ namespace CargoShippingDSA.Modules
             return true;
         }
 
-        // Search
-        public bool Search(string cargo)
+        // Search task
+        public bool Search(string task)
         {
             LinkedListNode? temp = head;
 
             while (temp != null)
             {
-                if (temp.CargoName == cargo)
+                if (temp.Task == task)
                     return true;
 
                 temp = temp.Next;
@@ -85,25 +86,25 @@ namespace CargoShippingDSA.Modules
             return false;
         }
 
-        // Display
+        // Display tasks
         public string Display()
         {
             if (head == null)
-                return "No cargo in the list.";
+                return "No tasks assigned.";
 
             LinkedListNode current = head;
-            string output = "Cargo List:\n";
+            string output = "Captain Tasks:\n";
 
             while (current != null)
             {
-                output += "- " + current.CargoName + "\n";
+                output += "- " + current.Task + "\n";
                 current = current.Next;
             }
 
             return output;
         }
 
-        // Count nodes
+        // Count tasks
         public int Count()
         {
             int count = 0;

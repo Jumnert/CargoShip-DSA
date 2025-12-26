@@ -1,5 +1,7 @@
-﻿using CargoShippingDSA.Modules;
+﻿
+using CargoShippingDSA.Modules;
 using System;
+
 namespace CargoShippingDSA.Menus
 {
     public class LinkedListMenu
@@ -14,19 +16,25 @@ namespace CargoShippingDSA.Menus
             {
                 Console.Clear();
                 Console.WriteLine(@"                                                                                                                                                                               
-  _     _       _            _   _     _     _       
- | |   (_)_ __ | | _____  __| | | |   (_)___| |_ ___ 
- | |   | | '_ \| |/ / _ \/ _` | | |   | / __| __/ __|
- | |___| | | | |   <  __/ (_| | | |___| \__ \ |_\__ \
- |_____|_|_| |_|_|\_\___|\__,_| |_____|_|___/\__|___/                                                                                                                                                                                          
+888      d8b          888                    888      888      d8b          888    
+888      Y8P          888                    888      888      Y8P          888    
+888                   888                    888      888                   888    
+888      888 88888b.  888  888  .d88b.   .d88888      888      888 .d8888b  888888 
+888      888 888 ""88b 888 .88P d8P  Y8b d88"" 888      888      888 88K      888    
+888      888 888  888 888888K  88888888 888  888      888      888 ""Y8888b. 888    
+888      888 888  888 888 ""88b Y8b.     Y88b 888      888      888      X88 Y88b.  
+88888888 888 888  888 888  888  ""Y8888   ""Y88888      88888888 888  88888P'  ""Y888 
+                                                                                   
+                                                                                   
+                                                                                                                                                                                                                                                                      
                 ");
-                Console.WriteLine("========== LINKED LIST MENU ==========");
-                Console.WriteLine("1. Add Cargo at Beginning");
-                Console.WriteLine("2. Add Cargo at End");
-                Console.WriteLine("3. Remove Cargo");
-                Console.WriteLine("4. Search Cargo");
-                Console.WriteLine("5. Display List");
-                Console.WriteLine("6. Count Cargo");
+                Console.WriteLine("========== CAPTAIN TASK LIST ==========");
+                Console.WriteLine("1. Add Task at Beginning");
+                Console.WriteLine("2. Add Task at End");
+                Console.WriteLine("3. Remove Task");
+                Console.WriteLine("4. Search Task");
+                Console.WriteLine("5. Display All Tasks");
+                Console.WriteLine("6. Count Tasks");
                 Console.WriteLine("7. Back");
                 Console.WriteLine("=======================================");
                 Console.Write("Choose an option: ");
@@ -36,27 +44,27 @@ namespace CargoShippingDSA.Menus
                 switch (choice)
                 {
                     case "1":
-                        Console.Write("Enter cargo name: ");
+                        Console.Write("Enter new task: ");
                         list.AddFirst(Console.ReadLine()!);
                         break;
 
                     case "2":
-                        Console.Write("Enter cargo name: ");
+                        Console.Write("Enter new task: ");
                         list.AddLast(Console.ReadLine()!);
                         break;
 
                     case "3":
-                        Console.Write("Enter cargo name to remove: ");
+                        Console.Write("Enter task to remove: ");
                         Console.WriteLine(list.Remove(Console.ReadLine()!)
-                            ? "Cargo removed!"
-                            : "Cargo not found.");
+                            ? "Task removed!"
+                            : "Task not found.");
                         break;
 
                     case "4":
-                        Console.Write("Search cargo: ");
+                        Console.Write("Search task: ");
                         Console.WriteLine(list.Search(Console.ReadLine()!)
-                            ? "Cargo found!"
-                            : "Cargo not found.");
+                            ? "Task found!"
+                            : "Task not found.");
                         break;
 
                     case "5":
@@ -64,7 +72,7 @@ namespace CargoShippingDSA.Menus
                         break;
 
                     case "6":
-                        Console.WriteLine($"Total cargo: {list.Count()}");
+                        Console.WriteLine($"Total tasks: {list.Count()}");
                         break;
 
                     case "7":
@@ -79,9 +87,10 @@ namespace CargoShippingDSA.Menus
                 if (!exit)
                 {
                     Console.Write("\nPress any key...");
-                    Console.ReadKey(true);  
+                    Console.ReadKey(true);
                 }
             }
         }
     }
 }
+

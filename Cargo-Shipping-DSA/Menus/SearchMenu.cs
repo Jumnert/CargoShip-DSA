@@ -1,45 +1,41 @@
-﻿using System;
-using CargoShippingDSA.Modules;
+﻿using CargoShippingDSA.Modules;
+using System;
+
 namespace CargoShippingDSA.Menus
 {
     public static class SearchMenu
     {
         public static void Show()
         {
-            int choice;
+            string choice;
             do
             {
                 Console.Clear();
-                Console.WriteLine(@"                                                                                                                                                              
-  ____                      _     
- / ___|  ___  __ _ _ __ ___| |__  
- \___ \ / _ \/ _` | '__/ __| '_ \ 
-  ___) |  __/ (_| | | | (__| | | |
- |____/ \___|\__,_|_|  \___|_| |_|
-                                                                                                                                                                                                        
+                Console.WriteLine(@"
+ .d8888b.                                    888      
+d88P  Y88b                                   888      
+Y88b.                                        888      
+ ""Y888b.    .d88b.   8888b.  888d888 .d8888b 88888b.  
+    ""Y88b. d8P  Y8b     ""88b 888P""  d88P""    888 ""88b 
+      ""888 88888888 .d888888 888    888      888  888 
+Y88b  d88P Y8b.     888  888 888    Y88b.    888  888 
+ ""Y8888P""   ""Y8888  ""Y888888 888     ""Y8888P 888  888 
+                                                      
+                                                      
+                                                       
                 ");
                 Console.WriteLine("=== Cargo Shipping Search Menu ===");
-                Console.WriteLine("1. Linear Search Cargo ID");
-                Console.WriteLine("2. Binary Search Cargo ID (sorted automatically)");
+                Console.WriteLine("1. Linear Search by Container ID / Cargo Name");
                 Console.WriteLine("0. Back to Main Menu");
                 Console.Write("Enter your choice: ");
-
-                string? input = Console.ReadLine();
-                while (!int.TryParse(input, out choice))
-                {
-                    Console.Write("Invalid input. Enter a number: ");
-                    input = Console.ReadLine();
-                }
+                choice = Console.ReadLine()!;
 
                 switch (choice)
                 {
-                    case 1:
+                    case "1":
                         LinearSearchMenu();
                         break;
-                    case 2:
-                        BinarySearchMenu();
-                        break;
-                    case 0:
+                    case "0":
                         Console.WriteLine("Returning to main menu...");
                         Console.ReadKey();
                         break;
@@ -49,100 +45,66 @@ namespace CargoShippingDSA.Menus
                         break;
                 }
 
-            } while (choice != 0);
+            } while (choice != "0");
         }
 
         private static void LinearSearchMenu()
         {
             Console.Clear();
-            Console.WriteLine(@"                                                                                                                                                              
-  _     _                         ____                      _     
- | |   (_)_ __   ___  __ _ _ __  / ___|  ___  __ _ _ __ ___| |__  
- | |   | | '_ \ / _ \/ _` | '__| \___ \ / _ \/ _` | '__/ __| '_ \ 
- | |___| | | | |  __/ (_| | |     ___) |  __/ (_| | | | (__| | | |
- |_____|_|_| |_|\___|\__,_|_|    |____/ \___|\__,_|_|  \___|_| |_|
-                                                                                                                                                                                                                                                 
+            Console.WriteLine(@"
+ .d8888b.                                    888      d8b                   
+d88P  Y88b                                   888      Y8P                   
+Y88b.                                        888                            
+ ""Y888b.    .d88b.   8888b.  888d888 .d8888b 88888b.  888 88888b.   .d88b.  
+    ""Y88b. d8P  Y8b     ""88b 888P""  d88P""    888 ""88b 888 888 ""88b d88P""88b 
+      ""888 88888888 .d888888 888    888      888  888 888 888  888 888  888 
+Y88b  d88P Y8b.     888  888 888    Y88b.    888  888 888 888  888 Y88b 888 
+ ""Y8888P""   ""Y8888  ""Y888888 888     ""Y8888P 888  888 888 888  888  ""Y88888 
+                                                                        888 
+                                                                   Y8b d88P 
+                                                                    ""Y88P""  
                 ");
-            Console.WriteLine("=== Linear Search Cargo ID ===");
+            Console.WriteLine("=== Linear Search ===");
 
-            int n = GetPositiveInt("Enter number of cargos: ");
-            int[] cargoIds = new int[n];
+            int n = GetPositiveInt("Enter number of containers/cargo items: ");
+            string[] items = new string[n];
 
             for (int i = 0; i < n; i++)
             {
-                cargoIds[i] = GetInt($"Enter Cargo ID {i + 1}: ");
+                Console.Write($"Enter Container ID / Cargo Name {i + 1}: ");
+                items[i] = Console.ReadLine()!;
             }
 
-            int key = GetInt("Enter Cargo ID to search: ");
-            int result = SearchModule.LinearSearch(cargoIds, key);
+            Console.Write("Enter Container ID / Cargo Name to search: ");
+            string key = Console.ReadLine()!;
+
+            int result = SearchModule.LinearSearch(items, key);
 
             if (result != -1)
-                Console.WriteLine($"Cargo ID {key} found at position {result + 1}");
+                Console.WriteLine($"\n'{key}' found at position {result + 1}");
             else
-                Console.WriteLine($"Cargo ID {key} not found");
+                Console.WriteLine($"\n'{key}' not found");
 
-            Console.WriteLine("Press any key to continue...");
+            Console.WriteLine("\nPress any key to continue...");
             Console.ReadKey();
         }
 
-        private static void BinarySearchMenu()
-        {
-            Console.Clear();
-            Console.WriteLine(@"                                                                                                                                                              
-  ____  _                          ____                      _     
- | __ )(_)_ __   __ _ _ __ _   _  / ___|  ___  __ _ _ __ ___| |__  
- |  _ \| | '_ \ / _` | '__| | | | \___ \ / _ \/ _` | '__/ __| '_ \ 
- | |_) | | | | | (_| | |  | |_| |  ___) |  __/ (_| | | | (__| | | |
- |____/|_|_| |_|\__,_|_|   \__, | |____/ \___|\__,_|_|  \___|_| |_|
-                           |___/                                                                                                                                                                                                                                                                                   
-                ");
-            Console.WriteLine("=== Binary Search Cargo ID ===");
-
-            int n = GetPositiveInt("Enter number of cargos: ");
-            int[] cargoIds = new int[n];
-
-            for (int i = 0; i < n; i++)
-            {
-                cargoIds[i] = GetInt($"Enter Cargo ID {i + 1}: ");
-            }
-
-            int key = GetInt("Enter Cargo ID to search: ");
-            Array.Sort(cargoIds);
-
-            Console.WriteLine("\nSorted Cargo IDs:");
-            Console.WriteLine(string.Join(", ", cargoIds));
-
-            int result = SearchModule.BinarySearch(cargoIds, key);
-
-            if (result != -1)
-                Console.WriteLine($"\nCargo ID {key} found at position {result + 1}");
-            else
-                Console.WriteLine($"\nCargo ID {key} not found");
-
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadKey();
-        }
-        private static int GetInt(string prompt)
-        {
-            int value;
-            Console.Write(prompt);
-            string? input = Console.ReadLine();
-
-            while (!int.TryParse(input, out value))
-            {
-                Console.Write("Invalid input. Try again: ");
-                input = Console.ReadLine();
-            }
-            return value;
-        }
         private static int GetPositiveInt(string prompt)
         {
             int value;
             do
             {
-                value = GetInt(prompt);
+                Console.Write(prompt);
+                string? input = Console.ReadLine();
+                while (!int.TryParse(input, out value))
+                {
+                    Console.Write("Invalid input. Try again: ");
+                    input = Console.ReadLine();
+                }
+
                 if (value <= 0)
                     Console.WriteLine("Number must be positive.");
+
             } while (value <= 0);
 
             return value;

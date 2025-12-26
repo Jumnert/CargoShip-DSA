@@ -7,15 +7,15 @@ namespace CargoShippingDSA.Modules
         private int front = 0;
         private int rear = -1;
         private int size = 5;
-        private int[] queue;
+        private string[] queue;
 
         public QueueModule()
         {
-            queue = new int[size];
+            queue = new string[size];
         }
 
-
-        public void Enqueue(int cargo)
+        // Add container to the queue
+        public void Enqueue(string containerID)
         {
             if (rear == size - 1)
             {
@@ -23,12 +23,11 @@ namespace CargoShippingDSA.Modules
                 return;
             }
 
-            queue[++rear] = cargo;
-            Console.WriteLine($"Cargo {cargo} enqueued.");
+            queue[++rear] = containerID;
+            Console.WriteLine($"Container {containerID} enqueued.");
         }
 
-
-        // Remove cargo from the queue
+        // Remove container from the queue
         public void Dequeue()
         {
             if (front > rear)
@@ -37,10 +36,10 @@ namespace CargoShippingDSA.Modules
                 return;
             }
 
-            Console.WriteLine($"Cargo {queue[front++]} removed from queue.");
+            Console.WriteLine($"Container {queue[front++]} removed from queue.");
         }
 
-        // Peek front cargo
+        // Peek front container
         public void Peek()
         {
             if (front > rear)
@@ -49,10 +48,10 @@ namespace CargoShippingDSA.Modules
                 return;
             }
 
-            Console.WriteLine($"Front cargo: {queue[front]}");
+            Console.WriteLine($"Front container: {queue[front]}");
         }
 
-        // Display all cargos in queue
+        // Display all containers in queue
         public void Display()
         {
             if (front > rear)
@@ -68,7 +67,7 @@ namespace CargoShippingDSA.Modules
             }
         }
 
-        // Count cargos in queue
+        // Count containers in queue
         public int Count()
         {
             return (rear >= front) ? (rear - front + 1) : 0;

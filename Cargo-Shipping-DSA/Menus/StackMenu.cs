@@ -8,27 +8,31 @@ namespace CargoShippingDSA.Menus
         private static StackModule stack = new StackModule();
 
         public static void Show()
-        {   //Declare
+        {
             bool exit = false;
-            //Input
-            //Process
-            //Output
+
             while (!exit)
             {
                 Console.Clear();
-                Console.WriteLine(@"                                                                                                                                                              
-  ____  _             _    
- / ___|| |_ __ _  ___| | __
- \___ \| __/ _` |/ __| |/ /
-  ___) | || (_| | (__|   < 
- |____/ \__\__,_|\___|_|\_\                                                                                                                                                                                                                                                        
+                Console.WriteLine(@"
+ .d8888b.  888                      888      
+d88P  Y88b 888                      888      
+Y88b.      888                      888      
+ ""Y888b.   888888  8888b.   .d8888b 888  888 
+    ""Y88b. 888        ""88b d88P""    888 .88P 
+      ""888 888    .d888888 888      888888K  
+Y88b  d88P Y88b.  888  888 Y88b.    888 ""88b 
+ ""Y8888P""   ""Y888 ""Y888888  ""Y8888P 888  888 
+                                             
+                                             
+                                                  
                 ");
                 Console.WriteLine("========== STACK MENU ==========");
-                Console.WriteLine("1. Push cargo");
-                Console.WriteLine("2. Pop cargo");
-                Console.WriteLine("3. Peek top cargo");
+                Console.WriteLine("1. Push container");
+                Console.WriteLine("2. Pop container");
+                Console.WriteLine("3. Peek top container");
                 Console.WriteLine("4. Display stack");
-                Console.WriteLine("5. Count cargos");
+                Console.WriteLine("5. Count containers");
                 Console.WriteLine("6. Back");
                 Console.WriteLine("================================");
                 Console.Write("Choose an option: ");
@@ -38,11 +42,16 @@ namespace CargoShippingDSA.Menus
                 switch (choice)
                 {
                     case "1":
-                        Console.Write("Enter cargo ID to push: ");
-                        if (int.TryParse(Console.ReadLine(), out int cargo))
-                            stack.Push(cargo);
+                        Console.Write("Enter container ID (can be letters & numbers, e.g., A12): ");
+                        string? containerID = Console.ReadLine();
+                        if (!string.IsNullOrWhiteSpace(containerID))
+                        {
+                            stack.Push(containerID);
+                        }
                         else
+                        {
                             Console.WriteLine("Invalid input.");
+                        }
                         break;
 
                     case "2":
@@ -58,7 +67,7 @@ namespace CargoShippingDSA.Menus
                         break;
 
                     case "5":
-                        Console.WriteLine($"Total cargos: {stack.Count()}");
+                        Console.WriteLine($"Total containers: {stack.Count()}");
                         break;
 
                     case "6":

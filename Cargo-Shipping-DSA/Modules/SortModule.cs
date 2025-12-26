@@ -1,67 +1,57 @@
 ﻿using System;
-using CargoShippingDSA.Menus;
-using CargoShippingDSA.Modules;
-namespace CargoShippingDSA.Modules;
-
 using System.Collections.Generic;
 
-public class CargoItem
+namespace CargoShippingDSA.Modules
 {
-    public string Name { get; set; }
-    public double Weight { get; set; }
-    public int Priority { get; set; }
-
-    public CargoItem(string name, double weight, int priority)
+    public class CargoItem
     {
-        Name = name;
-        Weight = weight;
-        Priority = priority;
+        public string Name { get; set; }
+        public double Weight { get; set; }
+        public int Priority { get; set; }
+
+        public CargoItem(string name, double weight, int priority)
+        {
+            Name = name;
+            Weight = weight;
+            Priority = priority;
+        }
+
+        public override string ToString() => $"{Name}: {Weight} kg (Priority: {Priority})";
     }
 
-    public override string ToString() => $"{Name}: {Weight}kg (Priority: {Priority})";
-}
-
-public class SortModule
-{
-    // Bubble Sort for Weight
-    public static void SortByWeight(List<CargoItem> cargos)
+    public static class SortModule
     {
-        for (int i = 0; i < cargos.Count - 1; i++)
+        // Bubble Sort based on Weight
+        public static void SortByWeight(List<CargoItem> cargos)
         {
-            for (int j = 0; j < cargos.Count - i - 1; j++)
+            int n = cargos.Count;
+            for (int i = 0; i < n - 1; i++)
             {
-                if (cargos[j].Weight > cargos[j + 1].Weight)
+                for (int j = 0; j < n - i - 1; j++)
                 {
-                    var temp = cargos[j];
-                    cargos[j] = cargos[j + 1];
-                    cargos[j + 1] = temp;
+                    if (cargos[j].Weight > cargos[j + 1].Weight)
+                    {
+                        var temp = cargos[j];
+                        cargos[j] = cargos[j + 1];
+                        cargos[j + 1] = temp;
+                    }
                 }
             }
         }
-    }
 
-    // Selection Sort for Priority
-    public static void SortByPriority(List<CargoItem> cargos)
-    {
-        for (int i = 0; i < cargos.Count - 1; i++)
+        public static void DisplayCargo(List<CargoItem> cargos)
         {
-            int minIndex = i;
-            for (int j = i + 1; j < cargos.Count; j++)
+            if (cargos.Count == 0)
             {
-                if (cargos[j].Priority < cargos[minIndex].Priority)
-                {
-                    minIndex = j;
-                }
+                Console.WriteLine("No cargo items to display.");
+                return;
             }
-            var temp = cargos[i];
-            cargos[i] = cargos[minIndex];
-            cargos[minIndex] = temp;
+
+            Console.WriteLine("\n--- Cargo Items ---");
+            foreach (var cargo in cargos)
+            {
+                Console.WriteLine(cargo);
+            }
         }
     }
-
-    public static void DisplayCargo(List<CargoItem> cargos)
-    {
-        foreach (var c in cargos) Console.WriteLine(c);
-    }
-
 }
